@@ -1,0 +1,6 @@
+/* .imageClipped {
+  background-color: #fff;
+  background-size: cover;
+  -webkit-clip-path: polygon(20% 0%, 100% 100%, 100% 100%, 100% 80%);
+          clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 20% 100%);
+} */
