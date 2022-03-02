@@ -8,7 +8,7 @@ const Navbar = () => {
     return ( 
     <>
     {width < 620? <NavMobile/>:
-     <nav className='flex justify-between fixed bg-gray-100 w-full p-4 text-2xl '>
+     <nav className='flex justify-between fixed bg-gray-100 w-full p-4 lg:px-8 lg:text-3xl text-2xl '>
      <Link to='/' >
      Soosh
      </Link>
@@ -61,7 +61,7 @@ const NavMobile = () =>{
         </button>
         </div>
         
-        {navOpen && <ul className='flex flex-col text-center space-y-2  py-2 w-ful'>
+        {navOpen && <ul className='flex flex-col text-center space-y-2 py-2 w-ful'>
             <li>
                 <Link to="/" >
                 Home
